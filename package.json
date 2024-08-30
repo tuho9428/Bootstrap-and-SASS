@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-and-sass",
+  "version": "1.0.0",
+  "description": "learning bootstrap with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "sass"
+  ],
+  "author": "Tu Ho",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "autoprefixer": "^10.4.20",
+    "bootstrap": "^5.3.3",
+    "postcss-cli": "^11.0.0"
+  }
+}
